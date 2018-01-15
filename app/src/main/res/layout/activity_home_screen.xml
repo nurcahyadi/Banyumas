@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nurcahyadiperdana.banyumas.HomeScreen"
+    android:background="@drawable/aaaa">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELAMAT DATANG"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="350dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DI LEMAS APP"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/kunjungi"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Kunjungi"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/input_background"/>
+</LinearLayout>

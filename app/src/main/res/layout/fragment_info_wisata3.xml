@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nurcahyadiperdana.banyumas.Wisata.info_wisata1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="300dp"
+            android:layout_height="136dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/andhang" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:text="Andhang Pangrenan"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Taman Kota Andhang Pangrenan Purwokerto merupakan tempat rekreasi alternatif selain alun-alun Purwokerto. Terletak di Kelurahan Karangklesem Purwokerto Selatan. Diresmikan pada tanggal 13 April 2011 oleh Bupati Banyumas pada saat itu Drs. Mardjoko"
+            android:id="@+id/test"  />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jalan Gerilya, Purwokerto Selatan, Karangklesem, Banyumas, Kabupaten Banyumas, Jawa Tengah 53142"
+            android:layout_marginTop="10dp"
+            android:id="@+id/test1"/>
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

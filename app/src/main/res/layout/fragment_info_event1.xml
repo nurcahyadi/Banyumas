@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nurcahyadiperdana.banyumas.Wisata.info_wisata1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+           >
+
+            <ImageView
+                android:id="@+id/gambar"
+                android:layout_width="300dp"
+                android:layout_height="136dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/hack" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="HACKATHON BANYUMAS"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:text="Hackathon Banyumas IT Telkom Purwokerto merupakan acara yang terinspirasi dari kegiatan Hackathon Merdeka 2.0 yang secara serentak diselenggarakan oleh {MDK} pada tahun 2015. Kami, Mahasiswa IT Telkom Purwokerto mengadakan kembali acara Hackathon Banyumas dengan tema yang berbeda yaitu Banyumas Kreatif tetapi dengan tujuan yang sama, yaitu, untuk ikut mengabdi pada Negeri tercinta, INDONESIA."
+                android:layout_marginTop="10dp"
+                android:id="@+id/test"  />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Acara Hackathon Banyumas IT Telkom Purwokerto dibuat sebagai wadah bagi masyarakat agar dapat ikut berpartisipasi dalam pembangunan negeri ibu pertiwi. Penuh harapan kami agar acara ini dapat menjadi momen tepat bagi masyarakat untuk dapat menyumbangkan ide kreatifnya yang dapat menunjang kemajuan negeri."
+                android:layout_marginTop="30dp"
+                android:id="@+id/test1"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

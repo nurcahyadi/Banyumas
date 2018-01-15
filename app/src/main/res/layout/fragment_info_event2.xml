@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nurcahyadiperdana.banyumas.Wisata.info_wisata1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/gambar"
+                android:layout_width="300dp"
+                android:layout_height="136dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ultah" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="ULANG TAHUN BANYUMAS"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="alam rangka menyambut hari jadi Kabupaten Banyumas ke 446 tahun 2017 ini bertepatan pada hari Rabu, tanggal 22 Februari 2017, seperti biasa akan ada berbagai rangkaian acara sesuai adat dan budaya Banyumas. Berikut ini jadwal kegiatan, resepsi, hiburan dan lainnya yang terrangkai dalam Gelar Budaya Banyumas."
+                android:layout_marginTop="10dp"
+                android:id="@+id/test"  />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selasa, 14 Februari 2017 Pukul 19.00 WIB
+Banyumas Bersholawat
+Bersama Habib Syech Bin Abdul Qodir Assegaf
+Lapangan Desa Tambaksari Kidul – Kembaran
+
+Jumat, 17 Februari 2017
+Ziarah, Tasyakuran, Wayang Ruwat Pukul 08.00 WIB s/d selesai
+Boyongan Saka Guru dari Pendopo Duplikat Si Panji Banyumas
+Ke Pendopo Si Panji Purwokerto pukul 13.00 WIB s/d selesai
+
+Sabtu, 18 Februari 2017 Pkul 09.00 WIB
+Stand Up Comedy Banyumasan Pelajar SD – SMP
+di Taman Rekreasi Andhang Pangrenan"
+               android:layout_marginTop="30dp"
+                android:id="@+id/test1"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

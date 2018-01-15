@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nurcahyadiperdana.banyumas.Wisata.info_wisata1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/gambar"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:layout_marginLeft="0dp"
+                android:src="@drawable/igabakar" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IGA BAKAR MAS GIRI"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Iga Bakar Mas Giri  menyajikan cita rasa iga bakar yang khas, menu yang lengkap mulai dari iga bakar, iga bakar blackpepper, sop, gulai, tongseng, oseng, steak, sate, sop buntut, nasi goreng dan mie goreng semua tersaji disini."
+                android:layout_marginTop="10dp"
+                android:id="@+id/test" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat: Bancarkembar, Purwokerto Utara, Bancarkembar, North Purwokerto, Banyumas Regency, Central Java 53114"
+                android:layout_marginTop="10dp"
+                android:id="@+id/test1"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    </ScrollView>
+</FrameLayout>

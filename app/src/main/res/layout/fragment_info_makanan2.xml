@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nurcahyadiperdana.banyumas.Wisata.info_wisata1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/gambar"
+                android:layout_height="136dp"
+                android:src="@drawable/jenang"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenang Jaket"
+                android:layout_marginTop="10dp"
+                android:id="@+id/test"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenang Jaket Mersi Purwokerto merupakan salah satu makanan khas tradisional Kabupaten Banyumas yang sangat spesifik dan sulit ditemukan di kota-kota lainnya di Indonesia. Makanan ini dapat dikonsumsi sebagai makanan kecil ataupun sebagai hidangan dalam suatu hajatan dan acara-acara tertentu ataupun sebagai oleh-oleh bagi wisatawan yang berkunjung ke Purwokerto. Apabila ada warga Banyumas dan sekitarnya yang memiliki hajatan baik acara resepsi mantenan, sunatan, ataupun syukuran, Jenang Jaket Mersi ini senantiasa menjadi menu wajib yang harus ada. Bahkan ada semacam kesepakatan yang sudah turun-temurun, bahwa acara hajatan belum “afdol” apabila tidak menghidangkan jenang jaket.
+Makanan khas ini dinamakan “Jenang Jaket”, ternyata nama tersebut diambil dari kependekan bahan baku utamanya yaitu tepung beras ketan asli. Memang dalam proses pembuatannya, tepung beras ketan yang digunakan haruslah yang asli dan berkualitas bagus tanpa adanya campuran dari tepung beras yang lain apalagi tepung terigu. Dari bahan ketan asli yang diolah menjadi jenang ini, maka untuk memudahkan diberi nama “Jenang Jaket”, yang merupakan kepanjangan dari Jenang Ketan Asli. Sedangkan nama Mersi diambilkan dari tempat pembuatan jenang yang ada di Kelurahan Mersi, Purwokerto."
+                android:layout_marginTop="10dp"
+                android:id="@+id/test1"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    </ScrollView>
+</FrameLayout>

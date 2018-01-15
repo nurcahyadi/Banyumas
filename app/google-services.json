@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "528437123894",
+    "firebase_url": "https://banyumas-a644a.firebaseio.com",
+    "project_id": "banyumas-a644a",
+    "storage_bucket": "banyumas-a644a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528437123894:android:cfeddf8c138a7836",
+        "android_client_info": {
+          "package_name": "com.example.nurcahyadiperdana.banyumas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528437123894-cqmurh7d66ppkf41ubh91aku4320fgoq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nurcahyadiperdana.banyumas",
+            "certificate_hash": "a630444ea92864389ebb3241bcfcd768d4be9a80"
+          }
+        },
+        {
+          "client_id": "528437123894-fpmjljannaodmncdqo5gfumql0rg7eee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvHPe6QZN447KB0sNPh8nPUcA8_dIseLU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528437123894-fpmjljannaodmncdqo5gfumql0rg7eee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
